@@ -71,11 +71,11 @@ public class NumberChecker_1 {
     }
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
         // Get user input
         System.out.print("Enter a number: ");
-        int number = scanner.nextInt();
+        int number = input.nextInt();
 
         // Display digit count
         int count = countDigits(number);
